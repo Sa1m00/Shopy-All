@@ -1,0 +1,129 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  width: 100%;
+}
+
+
+.about .about-text{
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  font-size: 40px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding-left: 10%;
+  width: 70%;
+}
+
+.about .about-name {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  font-size: 50px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding-left: 10%;
+  width: 70%;
+}
+
+.info-about {
+  background-color: #f7f7f7;
+  min-height: 500px;
+  text-align: center;
+}
+
+.info-title {
+  margin-top: 45px;
+ }
+
+.about-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about-card {
+  background-color: #fff;
+  height: 240px;
+  width: 350px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition: 0.5s ease-in-out;
+  padding: 20px;
+}
+
+.about-card:hover {
+  background-color: lightskyblue;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+.info-text {
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ufficio {
+  width: 100%;
+  height: 800px;
+}
+
+.team h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container-team {
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+  text-align: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  transform: rotateZ();
+}
+
+.team-person {
+	border-radius: 100%;
+  height: 130px;
+  width: 140px;
+}
+
+@media screen and (max-width: 786px) {
+  .about-cards {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .ufficio {
+    height: 600px;
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
